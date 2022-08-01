@@ -1,0 +1,64 @@
+/* Blogs */
+.Blogs{
+    background-color: #f3f3f3;
+}
+.Blogs-content{
+    width: 90%;
+    text-align: left;
+    margin: auto;
+}
+.Blogs-content .item{
+    background-color: #fff;
+    float: left;
+    width: 32%;
+}
+.Blogs-content .item.mg{
+    margin: 0 2%;
+
+}
+
+.Blogs-content .item-img img{
+    width: 100%;
+    filter: blur(2px);
+    transition: filter 0.8s;
+}
+.Blogs-content .item-img ul li{
+    display: inline-block;
+    padding: 10px 0 10px 20px;
+    color: #999;
+    font-weight: 100;
+    text-transform: capitalize;
+    font-size: 14px;
+}
+.Blogs-content .item-img ul li i{
+    color: #4e89ff;
+    cursor: pointer;
+}
+.Blogs-content .item h3{
+    padding: 0 0 10px 20px;
+    font-size: 20px;
+    text-transform: capitalize;
+    font-weight: 900;
+}
+.Blogs-content .item p{
+    line-height: 1.5;
+    font-size: 14px;
+    color: #999;
+    padding: 0 0 10px 20px;
+}
+.Blogs-content .item a{
+    padding: 10px 0 50px 20px;
+    display: block;
+    text-decoration: none;
+    color: #4e89ff;
+    font-size: large;
+    font-style: italic;
+
+}
+.Blogs-content .item a:hover{
+    text-decoration: underline solid #266bf5;
+}
+.Blogs-content .item:hover .item-img img{
+    filter:blur(0px);
+}
+

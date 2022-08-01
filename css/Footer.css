@@ -1,0 +1,39 @@
+/* Contact */
+.Footer{
+    height: 43vh;
+    background-color: #1c1d21;
+    text-align: center;
+    padding: 60px 0;
+}
+.Footer img{
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+.Footer-list li{
+    display: inline-block;
+    margin: 0 5px;
+    transition: opacity 0.5s;
+}
+.Footer-list li a{
+    display: block;
+    width: 44px;
+    height: 44px;
+    background-color: #6195ff;
+    border-radius: 50%;
+}
+.Footer-list li a i{
+    color: #fff;
+    line-height: 44px;
+}
+.Footer-list li:hover{
+    opacity: 0.7;
+}
+.Footer p{
+    margin-top: 25px;
+    text-transform: uppercase;
+    color: #999;
+}
+.Footer p span{
+    text-transform: uppercase ;
+    color: #4e89ff;
+}

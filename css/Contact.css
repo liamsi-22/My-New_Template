@@ -1,0 +1,116 @@
+/* Contact */
+.Contact{
+    background-image: linear-gradient(rgba(0, 0, 0, .5),#3551b5),url(../images/pexels-quang-nguyen-vinh-2150347.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    background-attachment: fixed;
+    width: 100%;
+}
+
+.Contact .virtual-header .h1-title{
+    color: white;
+}
+
+.Contact-content .item-up{
+    width: 80%;
+    margin: auto;
+}
+.Contact-content .item{
+    float: left;
+    width: 32%;
+    text-align: center;
+}
+.Contact-content .item-up i{
+    color: #4e89ff;
+    cursor: pointer;
+    font-size: 25px;
+}
+.Contact-content .item-up h3{
+    text-transform: capitalize;
+    font-weight: 300;
+    padding: 6px 0;
+    color: white;
+}
+.Contact-content .item-up span{
+    color: rgb(255, 255, 255);
+    text-transform: capitalize;
+}
+
+
+.item-down{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+form{
+    width: 90%;
+    max-width: 600px;
+
+}
+.input-group{
+    margin-bottom: 32px;
+    position: relative;
+
+}
+.input-group input,.input-group textarea{
+    padding: 10px;
+    background-color: transparent;
+    outline: 0;
+    border: 1px solid #fff;
+    width: 100%;
+    color: white;
+    font-size: 15px;
+}
+textarea{
+    max-width: 100%;
+    min-width: 100%;
+    min-height:170px ;
+    max-height: 170px;
+    overflow-y: hidden;
+}
+.input-group label{
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px;
+    width: 100%;
+    cursor: pointer;
+    color: white;
+    transition: 0.4s;
+}
+.item-down button{
+    padding: 10px 0;
+    width: 100%;
+    background-color: transparent;
+    border: 1px solid white;
+    cursor: text;
+    outline: none;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+.input-group input:focus~label,
+.input-group input:valid~label{
+    top: -35px;
+    font-size: 14px;
+    padding-left: 15px;
+}
+
+textarea:focus~label,
+textarea:valid~label{
+    top: -35px;
+    font-size: 14px;
+    padding-left: 15px;
+}
+
+.Contact-content .item-down .row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.row .input-group{
+    flex-basis:48%;
+}

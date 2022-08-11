@@ -1,51 +1,50 @@
 /* About section */
-.About-content .item{
-    border: 1px solid rgb(234, 234, 234);
-    width: 30%;
-    float: left;
-    text-align: center;
-    padding: 10px 25px;
-    position: relative;
+.About-content .item {
+	border: 1px solid rgb(234, 234, 234);
+	width: 30%;
+	float: left;
+	text-align: center;
+	padding: 10px 25px;
+	position: relative;
 }
-.About-content .mg{
-    margin: 0 5%;
+.About-content .mg {
+	margin: 0 5%;
 }
-.About-content .item i{
-    color: #6195ff;
-    padding: 10px 0 ;
+.About-content .item i {
+	color: #6195ff;
+	padding: 10px 0;
 }
-.About-content .item h2{
-    text-transform: capitalize;
-    transition: 0.6s;
+.About-content .item h2 {
+	text-transform: capitalize;
+	transition: 0.6s;
 }
-.About-content .item p{
-    color:rgb(133, 133, 133) ;
-    padding: 12px 0;
-    transition: 0.6s;
+.About-content .item p {
+	color: rgb(133, 133, 133);
+	padding: 12px 0;
+	transition: 0.6s;
 }
-.About-content .item a{
-    color: #6195ff;
-    text-decoration: none;
-    font-weight: 500;
+.About-content .item a {
+	color: #6195ff;
+	text-decoration: none;
+	font-weight: 500;
 }
-.About-content .item::before{
-    content: "";
-    background-color: rgba(0, 0, 0, 0.479);
-    position: absolute;
-    width: 0%;
-    height: 100%;
-    top: 0;
-    right:0 ;
-    z-index: -1;
-    transition:0.5s;
+.About-content .item::before {
+	content: '';
+	background-color: rgba(0, 0, 0, 0.479);
+	position: absolute;
+	width: 0%;
+	height: 100%;
+	top: 0;
+	right: 0;
+	z-index: -1;
+	transition: 0.5s;
 }
-.About-content .item:hover::before{
-    width:100% ;
+.About-content .item:hover::before {
+	width: 100%;
 }
-.About-content .item:hover h2{
-    color: white;
-
+.About-content .item:hover h2 {
+	color: white;
 }
-.About-content .item:hover p{
-    color: #000;
+.About-content .item:hover p {
+	color: #000;
 }

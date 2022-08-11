@@ -1,195 +1,184 @@
-
 /* Common */
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
 }
-body{
-    font-family: 'Varela Round', sans-serif;
-
+body {
+	font-family: 'Varela Round', sans-serif;
 }
-.container{
-    width: 80%;
-    margin: auto;
+.container {
+	width: 80%;
+	margin: auto;
 }
-.clear{
-    clear: both;
+.clear {
+	clear: both;
 }
-.Overlay{
-    background-color: rgba(0, 0, 0, 0.3);
-    position: absolute;
-    left: 0;
-    top: 0;
-    height: 100%;
-    width: 100%;    
- }
- .pd-y{
-    padding: 75px 0px;
-
+.Overlay {
+	background-color: rgba(0, 0, 0, 0.3);
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: 100%;
+}
+.pd-y {
+	padding: 75px 0px;
 }
 h1 {
-    font-family: 'Edu VIC WA NT Beginner', cursive;
-
+	font-family: 'Edu VIC WA NT Beginner', cursive;
 }
-.virtual-header{
-    text-align: center;
-    margin-bottom: 10vh;
-    text-transform: capitalize;
+.virtual-header {
+	text-align: center;
+	margin-bottom: 10vh;
+	text-transform: capitalize;
 }
-.h1-title{
-    font-size: 35px;
-    font-weight: 500;
+.h1-title {
+	font-size: 35px;
+	font-weight: 500;
 }
-.span-title{
-    background-color: #6195ff;
-    width: 5%;
-    height: 5px;
-    display: block;
-    margin: auto;
+.span-title {
+	background-color: #6195ff;
+	width: 5%;
+	height: 5px;
+	display: block;
+	margin: auto;
 }
-ul{
-    list-style: none;
+ul {
+	list-style: none;
 }
- /* Button */
- .hover-opacity:hover{
-    opacity: 1;
-    transition: 0.6s;
- }
+/* Button */
+.hover-opacity:hover {
+	opacity: 1;
+	transition: 0.6s;
+}
 
 /* header */
-.Header{
-    background-color: rgba(0, 0, 0, 0.5);
-    position: fixed;
-    width: 100%;
-    z-index: 10;
+.Header {
+	background-color: rgba(0, 0, 0, 0.5);
+	position: fixed;
+	width: 100%;
+	z-index: 10;
 }
-.Header .Logo{
-    width: 40%;
-    float: left;
+.Header .Logo {
+	width: 40%;
+	float: left;
 }
-.Header .Logo img{
-    width: 20%;
-    margin: 5px 0 0 20px;
-    cursor: pointer;
+.Header .Logo img {
+	width: 20%;
+	margin: 5px 0 0 20px;
+	cursor: pointer;
 }
-.Header  .list1{
-    list-style: none;
-    float: left;
-    width: 60%;
-    text-align: right;
+.Header .list1 {
+	list-style: none;
+	float: left;
+	width: 60%;
+	text-align: right;
 }
 .list1 > li {
-    display: inline-block;
-  
+	display: inline-block;
 }
-.list1 > li > a{
-    display:block;
-    text-decoration: none;
-    color: rgb(255, 255, 255);
-    font-size: 14px;
-    padding: 23px 10px;
-    margin-left: 2px;
-
+.list1 > li > a {
+	display: block;
+	text-decoration: none;
+	color: rgb(255, 255, 255);
+	font-size: 14px;
+	padding: 23px 10px;
+	margin-left: 2px;
 }
-.list1 > li > a i{
-    padding-left:5px;
+.list1 > li > a i {
+	padding-left: 5px;
 }
-.menu{
-    position: relative;
-
+.menu {
+	position: relative;
 }
-.menu .list2{
-    background-color: transparent;
-    list-style:none;
-    position: absolute;
-    left: -50%;
-    top: 100%;
-    box-shadow:0px 2px 2px 2px  rgba(0, 0, 0, 1);
-    text-align: center;
-    opacity: 0;
-    visibility: hidden;
-    transition: visibility 0.5s,opacity 0.5s;
-
+.menu .list2 {
+	background-color: transparent;
+	list-style: none;
+	position: absolute;
+	left: -50%;
+	top: 100%;
+	box-shadow: 0px 2px 2px 2px rgba(0, 0, 0, 1);
+	text-align: center;
+	opacity: 0;
+	visibility: hidden;
+	transition: visibility 0.5s, opacity 0.5s;
 }
-.menu .list2 li a{
-    font-weight: 700;
-    color: #6195ff;
-    text-decoration: none;
-    width: 140px;
-    display: block;
-    max-width: 200px;
-    padding: 14px 0;
+.menu .list2 li a {
+	font-weight: 700;
+	color: #6195ff;
+	text-decoration: none;
+	width: 140px;
+	display: block;
+	max-width: 200px;
+	padding: 14px 0;
 }
-.menu:hover  .list2{
-    opacity: 1;
-    visibility: visible;
+.menu:hover .list2 {
+	opacity: 1;
+	visibility: visible;
 }
-.list1 > li > a::after{
-    content: "";
-    display: block;
-    width: 0px;
-    height: 3px;
-    background-color: #6195ff;
-    transition: width 0.4s;
+.list1 > li > a::after {
+	content: '';
+	display: block;
+	width: 0px;
+	height: 3px;
+	background-color: #6195ff;
+	transition: width 0.4s;
 }
-.list1 > li > a.active::after{
-    width: 100%;
+.list1 > li > a.active::after {
+	width: 100%;
 }
-.list1 > li > a:hover::after{
-    width: 100%;
+.list1 > li > a:hover::after {
+	width: 100%;
 }
-
-
 
 /* Home section */
-.Home{
-    background-image: linear-gradient(rgba(0, 0, 0, 0),#3551b59b), url(../images/background/background1.webp);
-    height: 100vh;
-    background-size: cover;
-    background-attachment: fixed;
+.Home {
+	background-image: linear-gradient(rgba(0, 0, 0, 0), #3551b59b),
+		url(../images/background/background1.webp);
+	height: 100vh;
+	background-size: cover;
+	background-attachment: fixed;
 }
-.Home-content{
-    text-align: center;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    position: absolute;
-    color: white;
+.Home-content {
+	text-align: center;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	position: absolute;
+	color: white;
 }
-.Home-title{
-    text-transform: capitalize;
-    font-weight: 900;
-    font-size: 40px;
-    
+.Home-title {
+	text-transform: capitalize;
+	font-weight: 900;
+	font-size: 40px;
 }
-.Home-desc{
-    padding: 30px 0 20px 0;
-    font-size: large;
-    letter-spacing: 1.5px;
-    width: 80%;
-    margin: auto;
+.Home-desc {
+	padding: 30px 0 20px 0;
+	font-size: large;
+	letter-spacing: 1.5px;
+	width: 80%;
+	margin: auto;
 }
-.btn{
-    text-transform: capitalize;
-    border: none;   
-    border-radius: 5%;
-    background: none;
-    font-family: "montserrat";
-    margin: 0 5px;
-    font-size: 24px;
-    position: relative;
-    padding: 12px 24px 12px;
-    cursor: pointer;
-    opacity: 0.8;
-    transition: all 1s;
+.btn {
+	text-transform: capitalize;
+	border: none;
+	border-radius: 5%;
+	background: none;
+	font-family: 'montserrat';
+	margin: 0 5px;
+	font-size: 24px;
+	position: relative;
+	padding: 12px 24px 12px;
+	cursor: pointer;
+	opacity: 0.8;
+	transition: all 1s;
 }
 .btn1 {
-    color: #fff;
-    background-color: #6195ff;
+	color: #fff;
+	background-color: #6195ff;
 }
 .btn2 {
-    color: #000;
-    background-color: rgb(255, 255, 255);
+	color: #000;
+	background-color: rgb(255, 255, 255);
 }
-

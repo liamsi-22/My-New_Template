@@ -1,87 +1,82 @@
 /* Team */
-.Team-content .item{
-    position: relative;
-    float: left;
-    width: 32%;
-    background-color: #dbdbdb;
-    text-align: center;
-    padding: 32px 0px 18px 0px;
+.Team-content .item {
+	position: relative;
+	float: left;
+	width: 32%;
+	background-color: #dbdbdb;
+	text-align: center;
+	padding: 32px 0px 18px 0px;
 }
 
-.Team-content .item.mg{
-    margin: 0 2%;
+.Team-content .item.mg {
+	margin: 0 2%;
 }
-.Team-content .item-img{
-    width: 85%;
-    margin: auto;
-    margin-bottom: 12px;
-    position: relative;
-    z-index: 1;
-
+.Team-content .item-img {
+	width: 85%;
+	margin: auto;
+	margin-bottom: 12px;
+	position: relative;
+	z-index: 1;
 }
-.Team-content .item-img img{
-    width: 100%;
-    display: block;
+.Team-content .item-img img {
+	width: 100%;
+	display: block;
 }
-.Team-content .item .Overlay{
-    visibility: hidden;
-    opacity: 0;
-    transition: all 0.4s;
-    backdrop-filter: blur(2px);
-
+.Team-content .item .Overlay {
+	visibility: hidden;
+	opacity: 0;
+	transition: all 0.4s;
+	backdrop-filter: blur(2px);
 }
-.Team-content .item:hover .Overlay{
-    visibility: visible;
-    opacity: 1;
-
+.Team-content .item:hover .Overlay {
+	visibility: visible;
+	opacity: 1;
 }
-.Team-content .item .Overlay a{
-    display: block;
-    width: 45px;
-    height: 45px;
-    margin: 0 0 6px auto;
-    color: #fff;
-    background-color: #4e89ff;
-    border-radius: 50%;
-    
+.Team-content .item .Overlay a {
+	display: block;
+	width: 45px;
+	height: 45px;
+	margin: 0 0 6px auto;
+	color: #fff;
+	background-color: #4e89ff;
+	border-radius: 50%;
 }
-.Team-content .item .Overlay a i{
-    line-height: 45px;
-
+.Team-content .item .Overlay a i {
+	line-height: 45px;
 }
-.Team-content .item-desc{
-    position: relative;
-    z-index: 1;
+.Team-content .item-desc {
+	position: relative;
+	z-index: 1;
 }
-.Team-content .item h3{
-    color:rgb(0, 0, 0);
-    text-transform: capitalize;
-    margin-bottom: 6px;
-    transition: color 0.4s;
-    cursor: pointer;
+.Team-content .item h3 {
+	color: rgb(0, 0, 0);
+	text-transform: capitalize;
+	margin-bottom: 6px;
+	transition: color 0.4s;
+	cursor: pointer;
 }
-.Team-content .item span{
-    text-transform: uppercase;
-    color: rgb(134, 134, 134);
-    transition: color 0.4s;
+.Team-content .item span {
+	text-transform: uppercase;
+	color: rgb(134, 134, 134);
+	transition: color 0.4s;
 }
-.Team-content .item.tb-effect::after{
-    position: absolute;
-    content: "";
-    height: 0%;
-    width: 100%;
-    top: 0;
-    left: 0;
-    background-color: rgba(0, 0, 0, 0.904);
-    z-index: 0;
-    transition: height 0.3s;
+.Team-content .item.tb-effect::after {
+	position: absolute;
+	content: '';
+	height: 0%;
+	width: 100%;
+	top: 0;
+	left: 0;
+	background-color: rgba(0, 0, 0, 0.904);
+	z-index: 0;
+	transition: height 0.3s;
 }
-.Team-content .item:hover::after{
-    height: 100%;
+.Team-content .item:hover::after {
+	height: 100%;
 }
-.Team-content .item:hover .item-desc h3{
-    color:white ;
+.Team-content .item:hover .item-desc h3 {
+	color: white;
 }
-.Team-content .item:hover .item-desc span{
-    color: #4e89ff;
+.Team-content .item:hover .item-desc span {
+	color: #4e89ff;
 }

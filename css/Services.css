@@ -1,28 +1,27 @@
 /* Services */
-.Services{
-    position: relative;
-    background-image: url(../images/background/background2.webp);
-    background-attachment: fixed;
-    background-size: cover;
-    height: 40vh;
+.Services {
+	position: relative;
+	background-image: url(../images/background/background2.webp);
+	background-attachment: fixed;
+	background-size: cover;
+	height: 40vh;
 }
-.Services .item{
-    float: left;
-    width: 25%;
-    text-align: center;
-
+.Services .item {
+	float: left;
+	width: 25%;
+	text-align: center;
 }
 .Services .item i {
-    color: #6195ff;
-    cursor: pointer;
-    margin-bottom: 20px;
+	color: #6195ff;
+	cursor: pointer;
+	margin-bottom: 20px;
 }
-.Services .item h3{
-    color: #fff;
-    margin-bottom: 10px;
-    font-size: 23px;
+.Services .item h3 {
+	color: #fff;
+	margin-bottom: 10px;
+	font-size: 23px;
 }
-.Services .item span{
-    color: #fff;
-    font-size: 18px;
+.Services .item span {
+	color: #fff;
+	font-size: 18px;
 }
